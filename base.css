@@ -1,0 +1,62 @@
+html {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    /*谷歌浏览器字体最小字体12px*/
+    -webkit-text-size-adjust: 100%;
+    /*100%/none 关闭字体大小自动调整功能*/
+    /*a标签及拥有 :active伪类的元素有默认的高亮框*/
+    -webkit-tap-hightlight-color: transparent;
+    /*禁止文本被选中*/
+    /*-webkit-user-select: none;*/
+    /*font-size: 62.5%;*/
+    /* 10÷16=62.5% */
+}
+
+body {
+    font-family: Helvetica;
+    overflow-x: hidden;
+    /*开启moblie网页快速滚动和回弹的效果*/
+    -webkit-overflow-scrolling: touch;
+    /*font-size: 1.2rem;*/
+    padding-bottom: 0.1rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+}
+
+.topImg{
+    width:9.6rem;
+    height: 5.44rem;
+}
+
+.detail{
+    padding-top: 1rem;
+}
+
+.lazyDiv{
+    width:9.6rem;
+    height: 5.44rem;
+    background-image: url("images/loading.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.lazyDiv img{
+    width:9.6rem;
+    height: 5.44rem;
+}
+
+h2{
+   font-size: 0.6rem;
+
+}
+
+text{
+    font-size:0.4rem;
+}
