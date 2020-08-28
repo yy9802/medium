@@ -47,8 +47,7 @@
     console.log("地理定位")
     navigator.geolocation.getCurrentPosition(function(position){
         console.log("纬度"+position.coords.latitude+"经度"+position.coords.longitude)
-       };
-    );
+       });
     console.log(navigator.geolocation)
     lazyload(); //页面载入完毕加载可是区域内的图片
     //window.onscroll = lazyload;
